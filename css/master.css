@@ -14,10 +14,7 @@ body{
   clear: both;
 }
 
-.center{
-  width: 80%;
-  margin: 0 auto;
-}
+
 
 /* HEADER */
 header{
@@ -29,7 +26,6 @@ header{
 /* MAIN */
 main{
   /* debug rules */
-  height: 800px;
   background-color: white;
 }
 
@@ -41,13 +37,18 @@ main{
 }
 
 /* STRENGTH POINTS */
+.center-strength{
+  width: 80%;
+  margin: 0 auto;
+}
+
 #strength-points .row{
   /* debug rules */
   width: 100%;
   background-color: darkgreen;
 }
 
-.col{
+.col-strength{
   float: left;
   width: 30%;
   margin-right: 5%;
@@ -56,6 +57,46 @@ main{
   background-color: lightgreen;
 }
 
-.col:last-child{
+.col-strength:last-child{
   margin-right: 0;
+}
+
+/* CALL TO ACTION */
+.center-action{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#call-to-action .row{
+  /* debug rules */
+  width: 100%;
+  height: 350px;
+  background-color: darkblue;
+}
+
+.col-action{
+  float: left;
+  width: 45%;
+  margin-right: 10%;
+  /* debug rules */
+  height: 450px;
+  background-color: lightblue;
+}
+
+.col-action:last-child{
+  margin-right: 0;
+}
+
+
+
+/* FOOTER */
+footer{
+  height: 150px;
+  /* debug rules */
+  background-color: orange;
+}
+
+.center-footer{
+  width: 75%;
+  margin: 0 auto;
 }
