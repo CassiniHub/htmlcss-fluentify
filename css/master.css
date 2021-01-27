@@ -18,21 +18,46 @@ body{
 
 /* HEADER */
 header{
-  /* debug rules */
   background-color: #0C325A;
 }
 
 #main-nav{
-  height: 100px;
+
+}
+
+.col-nav{
+  float: left;
+
+  height: 60px;
+  /* line-height: 60px; */
+}
+
+.col-nav img{
+  padding: auto 0;
+}
+
+.col-nav ul li{
+  display: inline-block;
+
+  padding-left: 15px;
+}
+
+.col-nav li a{
+  color: white;
+  font-size: 14px;
+
+  padding: 5px 5px;
+
+  text-decoration: none;
 }
 
 .background-header{
-  height: 400px;
+  height: 600px;
   background-image: url(../img/background-header.png);
-  background-size: contain;
+  background-size: 1000px;
   background-repeat: no-repeat;
   background-origin: border-box;
-  background-position: bottom right;
+  background-position: 108% 100%;
 }
 
 
