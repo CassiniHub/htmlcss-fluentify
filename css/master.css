@@ -7,3 +7,55 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header{
+  /* debug rules */
+  height: 400px;
+  background-color: pink;
+}
+
+/* MAIN */
+main{
+  /* debug rules */
+  height: 800px;
+  background-color: white;
+}
+
+/* BANNER */
+.banner{
+  /* debug rules */
+  height: 100px;
+  background-color: grey;
+}
+
+/* STRENGTH POINTS */
+#strength-points .row{
+  /* debug rules */
+  width: 100%;
+  background-color: darkgreen;
+}
+
+.col{
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  /* debug rules */
+  height: 450px;
+  background-color: lightgreen;
+}
+
+.col:last-child{
+  margin-right: 0;
+}
