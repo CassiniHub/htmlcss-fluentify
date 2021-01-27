@@ -22,11 +22,17 @@ body{
 header{
   background-color: #0C325A;
 }
+.logo{
+  float: left;
+
+  margin-right: 80px;
+}
 
 /* MAIN-NAV */
 .main-nav{
   float: left;
 
+  width: 50%;
   height: 60px;
   line-height: 60px;
 }
@@ -39,19 +45,13 @@ header{
 .main-nav li{
   display: inline-block;
 
-  padding-left: 15px;
-}
-
-.main-nav li:first-child{
-  margin-right: 50px;
+  margin-top: 6px;
+  margin-right: 3%;
 }
 
 .main-nav li a{
   color: white;
   font-size: 14px;
-
-  padding-top: 13px;
-  margin-right: 10px;
 
   text-decoration: none;
 
@@ -61,7 +61,9 @@ header{
 /* RIGHT-NAV */
 .right-nav{
   float: right;
+  text-align: right;
 
+  width: 35%;
   height: 60px;
   line-height: 60px;
 }
@@ -69,21 +71,38 @@ header{
 .right-nav li{
   display: inline-block;
 
-  padding-left: 15px;
+  margin-top: 6px;
+  margin-right: 3%;
+}
+
+.right-nav li:last-child{
+  margin-right: 0;
 }
 
 .right-nav li a{
   color: white;
   font-size: 14px;
 
-  padding-top: 13px;
-  margin-right: 10px;
-
   text-decoration: none;
 
   vertical-align: middle;
 }
 
+#login{
+  border: 1px solid white;
+  border-radius: 5px;
+
+  padding: 8px 30px;
+  line-height: 35px;
+}
+
+#structure-a-plan{
+  background-color: lightgreen;
+
+  border-radius: 5px;
+
+  padding: 10px 5px;
+}
 
 .background-header{
   height: 600px;
