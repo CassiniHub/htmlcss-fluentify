@@ -19,16 +19,20 @@ body{
 /* HEADER */
 header{
   /* debug rules */
-  height: 500px;
   background-color: #0C325A;
 }
 
+#main-nav{
+  height: 100px;
+}
+
 .background-header{
-  height: 80%;
+  height: 400px;
   background-image: url(../img/background-header.png);
   background-size: contain;
   background-repeat: no-repeat;
-  backgro
+  background-origin: border-box;
+  background-position: bottom right;
 }
 
 
@@ -106,7 +110,7 @@ footer{
   background-color: orange;
 }
 
-.center-footer{
+.center-nav-footer{
   width: 75%;
   margin: 0 auto;
 }
