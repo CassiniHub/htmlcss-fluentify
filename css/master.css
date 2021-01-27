@@ -19,9 +19,19 @@ body{
 /* HEADER */
 header{
   /* debug rules */
-  height: 400px;
-  background-color: pink;
+  height: 500px;
+  background-color: #0C325A;
 }
+
+.background-header{
+  height: 80%;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  backgro
+}
+
+
 
 /* MAIN */
 main{
