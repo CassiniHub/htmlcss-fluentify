@@ -19,9 +19,16 @@ body{
 
 
 /* HEADER */
-header{
+.background-header{
+  height: 600px;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: 108% 100%;
   background-color: #0C325A;
 }
+
 .logo{
   float: left;
 
@@ -103,15 +110,6 @@ header{
   padding: 10px 5px;
 }
 
-.background-header{
-  height: 600px;
-  background-image: url(../img/background-header.png);
-  background-size: 1000px;
-  background-repeat: no-repeat;
-  background-origin: border-box;
-  background-position: 108% 100%;
-}
-
 /* JUMBOTRON */
 #jumbotron{
   position: relative;
@@ -152,6 +150,8 @@ main{
   /* debug rules */
   height: 120px;
   background-color: lightgrey;
+
+  padding: 30px 0;
 }
 
 #banner-heading{
@@ -170,10 +170,6 @@ main{
   padding-top: 15px;
 }
 
-.banner-v-align{
-  padding: 30px 0;
-}
-
 
 
 /* STRENGTH POINTS */
@@ -185,16 +181,54 @@ main{
 #strength-points .row{
   /* debug rules */
   width: 100%;
-  background-color: darkgreen;
 }
 
 .col-strength{
   float: left;
+
   width: 30%;
+
   margin-right: 5%;
+
+  text-align: center;
   /* debug rules */
-  height: 450px;
-  background-color: lightgreen;
+  height: 650px;
+}
+
+.col-strength img{
+  height: 35%;
+
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.strength-points-heading{
+  color: green;
+  font-size: 36px;
+
+  margin-bottom: 40px;
+}
+
+#content-line{
+  position: relative;
+  left: 37.5%;
+
+  width: 25%;
+
+  margin-bottom: 30px;
+}
+
+.strength-points-text{
+  color: grey;
+  font-size: 24px;
+
+  line-height: 1.5em;
+}
+
+#section-divisor{
+  border: 1px solid lightgrey;
+
+  margin-top: 40px;
 }
 
 .col-strength:last-child{
